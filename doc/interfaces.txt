@@ -1,0 +1,9 @@
+The Arcade is a project made for Epitech.
+
+The language used here is c++ which is really useful in order to keep genericity and add more games and graphical environnement pretty easily.
+
+If you want to add another Game to the Arcade project you should read how the IGames interface works and then implement a class heriting from the IGames interface.
+
+Then you should add all the files you need to the makefile, create a shared library from the source files of your new game and name your shared library as following : arcade_name.so.
+
+This process is also valid for the IRenderer ,which is responsible for the graphical displaying of menus and games, as both the Irenderer interace and IGames interface methods are called by the Core class which constitute the core of the program.
